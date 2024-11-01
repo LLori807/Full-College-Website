@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>UNIV FULL WEBSITE</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index-html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+        <h1 >Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+<!-- Blog page Content -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+        <h2>Our Certificate & Online Programs For 2021</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nihil porro voluptas. Eius fugit molestiae illum atque reprehenderit harum soluta vitae accusantium! Eum, unde! Voluptate sit repudiandae iste rerum expedita consectetur accusantium? Aperiam, accusamus ex!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aut expedita error animi sit quos soluta dolor provident officia aperiam minus illo omnis eveniet, quas architecto beatae molestiae accusamus quidem?</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea animi facere error hic nisi voluptate placeat deleniti labore. Explicabo et asperiores eveniet? Autem, nulla natus.</p>
+
+        <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+        </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- facilities -->
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, architecto!</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        <p>Made with<i class="bi bi-heart"></i> Easy Tutorials</p>
+    </section>
+
+      <!-- Javascript for Toggle Menu -->
+   
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+    
+</body>
+</html>
